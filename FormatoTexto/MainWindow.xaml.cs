@@ -26,15 +26,9 @@ namespace FormatoTexto
         }
 
         private void TextoUsuarioTextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            if (TextoUsuarioTextBox.Text.Length > 46)
-            {
-                ResultadoTextBlock.Text = TextoUsuarioTextBox.Text.Substring(0,46) + "...";
-            }
-            else
-            {
+        {          
                 ResultadoTextBlock.Text = TextoUsuarioTextBox.Text;
-            }
+            
         }
 
         private void AzulRadioButton_Checked(object sender, RoutedEventArgs e)
