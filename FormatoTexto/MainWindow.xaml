@@ -8,7 +8,7 @@
         Icon="Contenido/128.ico"
         Title="Texto con formato" Height="454.545" Width="800">
     <Grid Margin="0,0,0,51">
-        <TextBlock x:Name="ResultadoTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="79,294,0,0" Width="632" Height="40" TextAlignment="Center" Background="#FFF7FFC8" LineHeight="14" FontSize="25"/>
+        <TextBlock TextTrimming="CharacterEllipsis" x:Name="ResultadoTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="79,294,0,0" Width="632" Height="40" TextAlignment="Center" Background="#FFF7FFC8" LineHeight="14" FontSize="25"/>
         <TextBox x:Name="TextoUsuarioTextBox" TextChanged="TextoUsuarioTextBox_TextChanged"  HorizontalAlignment="Left" Height="92" Margin="72,136,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="181"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Texto" VerticalAlignment="Top" Margin="72,115,0,0"/>
         <CheckBox x:Name="NegritaCheckBox" Checked="NegritaCheckBox_Checked"  Unchecked="NegritaCheckBox_Unchecked" Content="Negrita" HorizontalAlignment="Left" Margin="309,136,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
